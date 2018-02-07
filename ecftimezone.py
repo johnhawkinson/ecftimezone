@@ -43,7 +43,7 @@ class ECFTimezone:
 
     tz_to_district3 = {
         'Pacific/Guam': ['nmi'],
-        'US/Central': ['tnm', 'tns'],
+        'US/Central': ['tnm', 'tnw'],
         'US/Eastern': ['tne'],
     }
 
