@@ -14,3 +14,18 @@ Sample usage:
 >>> e.timezone('nmd')
 'US/Mountain'
 ```
+
+We (`generate.py`) also produce a dictionary that is precomputed:
+
+```
+>>> from ecfzones import ECFTimezones
+>>> ECFTimezones.COURT['ca1']
+'US/Eastern'
+>>> ECFTimezones.COURT['mad']
+'US/Eastern'
+>>> ECFTimezones.COURT['ca9']
+'US/Pacific'
+>>> ECFTimezones.COURT['cacb']
+'US/Pacific'
+>>> 
+```
